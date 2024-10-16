@@ -13,9 +13,9 @@ def main():
         num2 = float(input("Ingrese el segundo numero: "))
 
         if choice == '1':
-            print("Suma")
+            print("Sumar")
         elif choice == '2':
-            print("Resta")
+            print("Restar")
         elif choice == '3':
             print("Multiplicacion")
         elif choice == '4':
