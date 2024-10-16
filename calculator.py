@@ -17,7 +17,7 @@ def main():
         elif choice == '2':
             print("Resta")
         elif choice == '3':
-            print(f"Multiplicacion: {num1} * {num2} = {num1 * num2}")
+            print(f"Multiplicacion:  {num1} * {num2} = {num1 * num2}")
         elif choice == '4':
             print("Division")
     else:
