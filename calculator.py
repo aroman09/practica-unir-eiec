@@ -5,10 +5,11 @@ def main():
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
+    print("5. Raíz Cuadrada")
 
     choice = input("Ingrese numero de la operacion (1/2/3/4): ")
 
-    if choice in ['1', '2', '3', '4']:
+    if choice in ['1', '2', '3', '4', '5']:
         num1 = float(input("Ingrese el primer numero: "))
         num2 = float(input("Ingrese el segundo numero: "))
 
@@ -20,6 +21,13 @@ def main():
             print(f"Multiplicacion:  {num1} * {num2} = {num1 * num2}")
         elif choice == '4':
             print("Division")
+        elif choice == '5':
+            print("Raiz Cuadrada")
+            num = float(input("Ingrese un número para calcular su raíz cuadrada: "))
+            if num >= 0:
+                print(f"Resultado de la raíz cuadrada: {math.sqrt(num)}")
+            else:
+                print("Error: No se puede calcular la raíz cuadrada de un número negativo.")
     else:
         print("Operacion no existente...")
 
