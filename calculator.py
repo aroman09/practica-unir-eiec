@@ -6,7 +6,7 @@ def main():
     print("3. Multiplicar")
     print("4. Dividir")
 
-    choice = input("Ingrese numero de la operacion (1/2/3/4): ")
+    choice = input("Ingrese numero de la operacion: (1-2-3-4): ")
 
     if choice in ['1', '2', '3', '4']:
         num1 = float(input("Ingrese el primer numero: "))
